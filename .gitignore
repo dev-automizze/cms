@@ -3,3 +3,16 @@
 secrets/
 node_modules/
 venv/
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+
+# Database files (keeps local data safe)
+*.db
+*.sqlite3
+
+# Backup files & editor settings
+*.bak
+*.backup
+.vscode/
