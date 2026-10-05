@@ -1,0 +1,5 @@
+npm run build
+
+pm2 restart cms-backend
+pm2 save
+

@@ -1,0 +1,11 @@
+services:
+  cms-app:
+    build: .
+    container_name: footprints-cms
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
+    volumes:
+      - ./backend/cms.db:/app/backend/cms.db
+    environment:
+      - TZ=Asia/Phnom_Penh
